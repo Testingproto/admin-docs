@@ -22,7 +22,7 @@ const NavigationSections = [
     title: "Forem Basics",
     links: [
       {
-        title: "Create static content with Pages",
+        title: "Create static content with Pages and components",
         url: "docs/forem-basics/pages",
       },
       {
@@ -123,8 +123,8 @@ function Column({ title, links }) {
 export default function NavigationList() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className="container_navigationlist">
+        <div className="row_navigation">
           {NavigationSections.map((props, idx) => (
             <Column key={idx} {...props} />
           ))}
