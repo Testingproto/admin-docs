@@ -15,7 +15,7 @@ const NavigationSections = [
         title: "Forem Setup Checklist",
         url: "docs/getting-started/forem-setup-checklist",
       },
-      url : "docs/getting-started/about-us"
+      url : "docs/getting-started/about-us/about us"
     ],
   },
   {
